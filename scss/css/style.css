@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #03001c; }
+
+body {
+  background-color: white; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+nav ul {
+  display: flex;
+  justify-content: center; }
+
+nav ul li {
+  display: block;
+  padding: 30px 20px;
+  font-size: 1.5rem;
+  color: #03001c; }
+
+nav {
+  background-color: #fe9600; }
+
+.carrito_caja {
+  position: absolute;
+  top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 75vw;
+  z-index: 100;
+  display: none;
+  max-height: 700px; }
+
+.mostrar_caja {
+  display: block;
+  overflow-y: auto; }
+
+.carrito_caja_titulo {
+  order: 0;
+  display: flex;
+  width: 100%; }
+  .carrito_caja_titulo h3 {
+    font-size: 1.5rem;
+    margin: auto; }
+  .carrito_caja_titulo button {
+    position: relative;
+    right: 20px; }
+
+.carrito_caja_pie {
+  order: 5; }
+
+.mostrar_tienda {
+  display: block; }
+
+.ocultar_tienda {
+  display: none; }
+
+.carrito_boton, .carrito_boton_masmenos {
+  background-color: #fe9600;
+  border: 2px solid #03001c;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  width: 200px;
+  height: 50px;
+  margin: auto; }
+  .carrito_boton:hover, .carrito_boton_masmenos:hover {
+    background-color: #ffc501;
+    color: #03001c; }
+
+.masmenos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.carrito_boton_masmenos {
+  width: 50px;
+  margin: 5px 10px; }
+
+footer {
+  padding: 20px;
+  width: 100%; }
+
+footer p {
+  text-align: center; }
+
+.buscador {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0; }
+
+.productos {
+  display: flex !important;
+  align-items: center;
+  flex-direction: column; }
+
+.producto {
+  border: 2px solid #03001c;
+  display: flex;
+  margin: 20px 10px;
+  padding: 15px;
+  width: 70%;
+  justify-content: space-around;
+  background-color: #ffee4a; }
+
+.producto img {
+  width: 200;
+  height: 200px; }
+
+.producto__descripcion {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 10px; }
+  .producto__descripcion .precio {
+    font-size: 2rem; }
+
+#api {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0; }
+  #api div {
+    border-bottom: 3px solid #fe9600; }
