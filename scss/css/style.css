@@ -35,7 +35,7 @@ nav {
   font-weight: 510;
   padding: 20px; }
   .boton_moneda:hover {
-    background-color: #ffc501; }
+    background-color: #ac8400; }
 
 .carrito_caja {
   position: absolute;
@@ -89,7 +89,7 @@ nav {
   height: 50px;
   margin: auto; }
   .carrito_boton:hover, .carrito_boton_masmenos:hover {
-    background-color: #ffc501;
+    background-color: #ac8400;
     color: #03001c; }
 
 .masmenos {
@@ -132,7 +132,7 @@ footer p {
   padding: 15px;
   width: 70%;
   justify-content: space-around;
-  background-color: #ffee4a;
+  background-color: #dbc70f;
   border-radius: 15px;
   box-shadow: -5px 5px 7px #fe9600; }
 
